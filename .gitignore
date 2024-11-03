@@ -22,3 +22,4 @@ yarn-error.log
 /.zed
 _theme_files/
 .DS_Store
+postgres/
