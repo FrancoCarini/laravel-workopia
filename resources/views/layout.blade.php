@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   @vite('resources/css/app.css')
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <script src="//unpkg.com/alpinejs" defer></script>
   <title>{{ $title ?? 'Workopia | Find and lists jobs' }}</title>
 </head>
 <body class="bg-gray-100">
