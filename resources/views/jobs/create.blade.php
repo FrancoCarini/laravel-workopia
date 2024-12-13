@@ -21,7 +21,7 @@
       <h2 class="text-2xl font-bold mb-6 text-center text-gray-500">Company Info</h2>
       <x-inputs.text id="company_name" name="company_name" label="Company Name" placeholder="Enter company name" />
       <x-inputs.text-area id="company_description" name="Company Description" label="company_description" placeholder="Company Description" />    
-      <x-inputs.text id="company_website" name="company_website" label="Company Website" placeholder="Enter company website" />
+      <x-inputs.text id="company_website" name="company_website" label="Company Website" placeholder="Enter company website" type="url" />
       <x-inputs.text id="contact_phone" name="contact_phone" label="Contact Phone" placeholder="Enter contact phone" />
       <x-inputs.text id="contact_email" name="contact_email" label="Email" type="email" placeholder="Enter contact email" />
       <x-inputs.file id="company_logo" name="company_logo" label="Company Logo" />
